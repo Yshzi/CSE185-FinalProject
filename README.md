@@ -8,6 +8,7 @@ To use the MSA tools provided in this repository, follow these steps:
 1. Clone the repository:
 
 `git clone .....`
+
 2. Set up the environment:
 ```
 mkdir msa 
