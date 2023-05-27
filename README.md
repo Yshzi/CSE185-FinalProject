@@ -3,11 +3,11 @@
 ### Overview 
 This respository provides tools and resources for performing Multiple Sequence Alignment (MSA), a fundamental task in bioinformatics and computational biology. MSA allows user to align and identify similarities and differences among multiple biological sequences, such as DNA, RNA, or protein sequences. 
 
-### Installation (NOT SURE ABOUT THIS PART)
+### Installation 
 To use the MSA tools provided in this repository, follow these steps:
 1. Clone the repository:
 
-`git clone .....`
+`git clone https://github.com/Yshzi/CSE185-FinalProject.git`
 
 2. Set up the environment:
 ```
@@ -28,3 +28,6 @@ Here's an example:
 Replace `input.fasta` file with the path to your input FASTA format file. 
 
 ### Contributors 
+Andrew Quach
+Dan Le
+Joeseph Mattingly
