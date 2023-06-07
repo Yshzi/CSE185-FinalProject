@@ -1,10 +1,8 @@
 import sys
 
-
 def MSA(s1, s2, s3):
     m, n, o = len(s1), len(s2), len(s3)
     dp = [[[0 for _ in range(o+1)] for _ in range(n+1)] for _ in range(m+1)]
-
     for i in range(1, m+1):
         for j in range(1, n+1):
             for k in range(1, o+1):
@@ -118,6 +116,9 @@ result = MSA(sequences[0], sequences[1], sequences[2])
 # Print the alignment result with sequence names
 alignment_score, aligned_s1, aligned_s2, aligned_s3 = result
 print("Alignment Score: " + str(alignment_score))
-print(sequence_names[0] + ": " + str(aligned_s1))
-print(sequence_names[1] + ": " + str(aligned_s2))
-print(sequence_names[2] + ": " + str(aligned_s3))
+print(">" + sequence_names[0] )
+print(str(aligned_s1))
+print(">" + sequence_names[1] )
+print(str(aligned_s2))
+print(">" + sequence_names[2] )
+print(str(aligned_s3))
