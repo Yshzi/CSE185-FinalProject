@@ -1,5 +1,4 @@
-# CSE185-FinalProject
-## Multiple Sequence Alignment (MSA) tool
+# CSE185-FinalProject: Multiple Sequence Alignment (MSA) tool
 ### Overview 
 This respository provides tools and resources for performing Multiple Sequence Alignment (MSA), a fundamental task in bioinformatics and computational biology. MSA allows user to align and identify similarities and differences among multiple biological sequences, such as DNA, RNA, or protein sequences. 
 
@@ -11,8 +10,7 @@ To use the MSA tools provided in this repository, follow these steps:
 
 2. Set up the environment:
 ```
-mkdir msa 
-cd msa
+cd CSE185-FinalProject
 ```
 3. Run the setup script: 
 
