@@ -1,20 +1,21 @@
 # Multiple Sequence Alignment (MSA) Tool (CSE 185 Final Project)
+![Windows](https://svgshare.com/i/ZhY.svg) [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) ![MacOS](https://github.com/scrapy/scrapy/workflows/macOS/badge.svg) ![Documentation](https://readthedocs.org/projects/ansicolortags/badge/?version=latest) ![Latest Realease](https://badgen.net/github/release/Naereen/Strapdown.js)
 ### Overview 
 This respository provides tools and resources for performing Multiple Sequence Alignment (MSA), a fundamental task in bioinformatics and computational biology. MSA allows user to align and identify similarities and differences among multiple biological sequences, such as DNA, RNA, or protein sequences. 
 
 ### Installation 
-To use the MSA tools provided in this repository, follow these steps:
+To use the MSA tools provided in this repository, you must already have python installed. If you do not have python installed proceed [here](https://www.python.org/downloads/) and follow instructions to install python for your operating system. Once you have python installed the code should be able to run properly.
 1. Clone the repository:
-
-`git clone https://github.com/Yshzi/CSE185-FinalProject.git`
-
+```
+git clone https://github.com/Yshzi/CSE185-FinalProject.git
+```
 2. Set up the environment:
 ```
 cd CSE185-FinalProject
 ```
-3. Run the setup script: 
-
-`python MSA.py input.fasta`
+3. Run the code: 
+```
+python MSA.py input.fasta
 
 ### Usage 
 The MSA tools can be used to align up to three sequences. Provide the input sequences in suported format and run the alignment command. 
