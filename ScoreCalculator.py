@@ -1,7 +1,9 @@
 '''
-Calculates the score of the alignment of three sequences.
-A value of 1 is added to the score if the character at the
-index of the 3 sequences is the same. 
+Calculates the score of the output sequences of a MAFFT alignment.
+A value of 1 is added to the score if the character at the current
+index of the 3 sequences are equal. 
+
+returns score
 '''
 
 def CalculateScore(s1, s2, s3):
