@@ -42,7 +42,9 @@ In the `MultipleSequenceAlignment` directory you can find this `README.md` file,
 ### Testing
 In the `Testing` directory you can find test `.fasta` files to be used for testing `MSA.py`. The test files are: `bigProtein.fasta`, `hemogoblin.fasta`, `shortDNA.fasta`, and `shortProtein.fasta`.
 ### Benchmarking
-In the `Bnechmarking` directory you can find 3 files for benchmarking, and a directory with alignments that is the output of MAAFT. A `README.md` file, `benchmark.fasta` that contains protein sequences that were used for benchmarking our code, and `ScoreCalculator.py` which contains code to get alignment score of sequences. 
+In the `Benchmarking` directory you can find 3 files for benchmarking, and a directory with alignments that is the output of MAAFT. A `README.md` file, `benchmark.fasta` that contains protein sequences that were used for benchmarking our code, and `ScoreCalculator.py` which contains code to get alignment score of sequences. 
+### Dataset
+The 'Dataset' directory contains 2 fasta files set1 and set2. Set1 contains peptide sequences for human, mouse, and chicken hemoglobin subunit alpha. Set2 contains peptide sequences for human, mouse, and frog hemoglobin subunit alpha.
 
 #### ScoreCalculaotr.py
 ##### Overview
