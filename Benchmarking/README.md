@@ -1,14 +1,14 @@
 # Benchmarking
-Multiple Sequence Alignement was inspired by MAFFT and so we will be benchmarking using MAAFT. In this directory, you will find a benchmarking fasta file that contains three protein sequences that can be used as input for benchmarking. Additionally we have included the Multiple Sequence Alignment python code so the code can be run in the same directory as the files.
+Multiple Sequence Alignement was inspired by `MAFFT` and so we will be benchmarking using `MAAFT`. In this directory, you will find a benchmarking fasta file that contains three protein sequences that can be used as input for benchmarking. Additionally we have included the Multiple Sequence Alignment python code so the code can be run in the same directory as the files.
 
-## Installing MAAFT
-First, we have to install MAAFT. To install MAFFT follow the instructions on this [website](https://mafft.cbrc.jp/alignment/software/). Ensure that you are using the correct download instructions for your operating system.
+## Installing `MAAFT`
+First, we have to install `MAAFT`. To install `MAFFT` follow the instructions on this [website](https://mafft.cbrc.jp/alignment/software/). Ensure that you are using the correct download instructions for your operating system.
 
 ## Benchmarking 
 
 
 ### Windows `MAAFT`
-For windows we downloaded the `All-In-One version`. After downloading the .zip file. We extracted its contents per the instructions from the `MAAFT` website. Then we opened the terminal with powershell, and changed the directory until we were in the `mafft-win` folder. After, we ran `MAAFT` on the `benchmark.fasta` file by using 
+For windows we downloaded the `All-In-One version`. After downloading the `.zip` file. We extracted its contents per the instructions from the `MAAFT` website. Then we opened the terminal with powershell, and changed the directory until we were in the `mafft-win` folder. After, we ran `MAAFT` on the `benchmark.fasta` file by using 
 ```
 Measure-Command {.\mafft.bat <filepath to benchmark.fasta> --ep 0 --op 0}
 ``` 
