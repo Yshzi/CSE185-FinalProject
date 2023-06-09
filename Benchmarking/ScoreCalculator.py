@@ -33,6 +33,8 @@ sequences = []
 with open(file_path, 'r') as file:
     lines = file.readlines()
     for line in lines:
+        if line.startswith('>'):
+            continue
         sequences.append(line.strip())
 
 # Prints the alignment score and alignment length of an alignment
