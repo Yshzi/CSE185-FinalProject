@@ -18,7 +18,7 @@ time /usr/local/bin/mafft <filepath to benchmark.fasta>
 ```
 `time` is command-line utility that allows us to see how long it takes to execute the code. 
 
-### Benchmarking MSA.py
+## Benchmarking MSA.py
 Now we will benchmark MSA.py. Using the timing tool for your specific operating system as specified as above we will look at the runtimes for MSA.py. To reiterate, windows will use `Measure-Command` and mac will use `time`. Ensure that you are in the benchmarking directory in this repository. Windows users will use 
 ```
 Measure-Command {python3 MSA.py benchmark.fasta}
