@@ -49,7 +49,6 @@ In the `Bnechmarking` directory you can find 3 files for benchmarking, and a dir
 ScoreCalculor.py is a python script that takes in a text file containing the 3 sequence alignment with no headers and returns the score and length of the alignment.
 
 ##### Usage
-
 ```
 python3 ScoreCalculator.py <input.txt>
 ```
