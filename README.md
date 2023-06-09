@@ -40,7 +40,11 @@ Now you should be all set to run the code! For benchmarking please change to the
 ### Multiple Sequence Alignment
 In the `MultipleSequenceAlignment` directory you can find this `README.md` file, `MSA.py`, and `ScoreCalculator.py`.
 ### Testing
-In the `Testing` directory you can find test `.fasta` files to be used for testing `MSA.py`. The test files are: `bigProtein.fasta`, `hemogoblin.fasta`, `shortDNA.fasta`, and `shortProtein.fasta`. In the ben
+In the `Testing` directory you can find test `.fasta` files to be used for testing `MSA.py`. The test files are: `bigProtein.fasta`, `hemogoblin.fasta`, `shortDNA.fasta`, and `shortProtein.fasta`.
+### Benchmarking
+In the `Bnechmarking` directory you can find 2 files for benchmarking. A `README.md` file and `benchmark.fasta` that contains protein sequences that were used for benchmarking our code.
+### Alignments
+[insert information about alignments here]
 
 The basic usage of 'ScoreCalculator' is:
 'python ScoreCalculator.py input.txt'
