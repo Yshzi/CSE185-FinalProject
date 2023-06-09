@@ -32,12 +32,13 @@ The output of `MSA.py` includes an alignment score that counts the number of mat
 
 Now that we have the output of `MAAFT` in a `.txt` file we can use `ScoreCalculator.py` on it.
 ### MSA.py
-Now we will benchmark `MSA.py`. Using the timing tool for your specific operating system as specified as above we will look at the runtimes for `MSA.py`. To reiterate, windows will use `Measure-Command` and mac will use `time`. Ensure that you are in the benchmarking directory in this repository. Windows users will use 
+Now we will benchmark `MSA.py`. Using the timing tool for your specific operating system as specified as above we will look at the runtimes for `MSA.py`. To reiterate, windows will use `Measure-Command` and mac will use `time`. Ensure that you are in the benchmarking directory in this repository.
+Windows users will use:
 
 ```
 Measure-Command {python3 MSA.py benchmark.fasta}
 ```
-and mac users will use
+and mac users will use:
 
 ```
 time python3 MSA.py benchmark.fasta
