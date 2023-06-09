@@ -60,8 +60,8 @@ python3 ScoreCalculator.py <input.txt>
 ```
 
 ###### Example
-To run `ScoreCalculator.py` on example alignments from `MSA.py` on set 1 (using files in this repo):
-`python3 'ScoreCalculator.py alighments/msa_set1.txt`
+To run `ScoreCalculator.py` on example alignments from `MSA.py` on `set1.txt` (using files in this repo):
+`python3 'Benchmarking/ScoreCalculator.py Benchmarking/Alignments/msa_set1.txt`
 Your ouput should look similar to: 
 
 ![ScoreCalculator](Images/scoreCalculator.png)
