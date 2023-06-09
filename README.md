@@ -42,6 +42,9 @@ In the `MultipleSequenceAlignment` directory you can find this `README.md` file,
 
 ### Testing
 In the `Testing` directory you can find test `.fasta` files to be used for testing `MSA.py`. The test files are: `bigProtein.fasta`, `hemogoblin.fasta`, `shortDNA.fasta`, and `shortProtein.fasta`.
+
+### Images
+Contains images used in READMEs not important for the function of the code. Can look in directory to see example output.
  
 ### Benchmarking
 In the `Benchmarking` directory you can find three files and two directories for benchmarking. A `README.md` file, `benchmark.fasta` that contains protein sequences that were used for benchmarking our code, and `ScoreCalculator.py` which contains code to get alignment score of sequences. The two directories are `Alignments` and `Datasets`
